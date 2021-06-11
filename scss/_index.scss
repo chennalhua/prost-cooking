@@ -1,0 +1,38 @@
+$prost-red:#983131;
+
+
+
+.bg-prost-red{
+    background:$prost-red
+}
+
+.text-prost-red{
+    color:$prost-red
+}
+
+i{
+    font-size: 20px;
+    color:$prost-red;
+    margin-right: 10px;
+}
+
+.top{
+    position: fixed;
+    right: 5px;
+    bottom:10px;
+    a{
+        display: block;
+        background:white;
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        position: relative;
+        i{
+            position: absolute;
+            top:40%;
+            left: 50%;
+            transform:translate(-50%,-50%)
+        }
+    }
+
+}

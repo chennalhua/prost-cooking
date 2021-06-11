@@ -1,0 +1,37 @@
+.bg-prost-red {
+  background: #983131;
+}
+
+.text-prost-red {
+  color: #983131;
+}
+
+i {
+  font-size: 20px;
+  color: #983131;
+  margin-right: 10px;
+}
+
+.top {
+  position: fixed;
+  right: 5px;
+  bottom: 10px;
+}
+
+.top a {
+  display: block;
+  background: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.top a i {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=all.css.map */
