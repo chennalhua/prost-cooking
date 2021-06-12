@@ -12,12 +12,6 @@ i {
   margin-right: 10px;
 }
 
-.top {
-  position: fixed;
-  right: 10px;
-  bottom: 20px;
-}
-
 .top a {
   display: block;
   background: white;
@@ -25,6 +19,9 @@ i {
   height: 45px;
   border-radius: 50%;
   position: relative;
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
 }
 
 .top a i {

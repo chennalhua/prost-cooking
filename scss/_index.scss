@@ -17,9 +17,6 @@ i{
 }
 
 .top{
-    position: fixed;
-    right: 10px;
-    bottom:20px;
     a{
         display: block;
         background:white;
@@ -27,6 +24,9 @@ i{
         height:45px;
         border-radius: 50%;
         position: relative;
+        position: fixed;
+        right: 15px;
+        bottom:30px;
         i{
             position: absolute;
             top:40%;
