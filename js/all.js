@@ -7,3 +7,10 @@ function showBtnCondition() {
      }
  $(window).scroll(showBtnCondition);
 
+ $(document).ready(function(){
+  $('.top a').attr('style','opacity:0');
+    $('.top a').click(function(event){
+      event.preventDefault();
+      $('html,body').animate({scrollTop:0},1000);
+    });
+});
